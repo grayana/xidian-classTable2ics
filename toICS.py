@@ -8,7 +8,7 @@ timeSchedule_summer = {'1': '0830', '2': '0920', '3': '1025', '4': '1115', '5': 
 timeSchedule_winter = {'1': '0830', '2': '0920', '3': '1025', '4': '1115', '5': '1400',
                        '6': '1450', '7': '1555', '8': '1645', '9': '1900', '10': '1950', '11': '2035'
                        }
-termStart = '20190826'
+termStart = '20190826'#学期开始日期
 Sday = datetime.strptime(termStart, '%Y%m%d')
 Summer = datetime.strptime(str(datetime.today().year) + '1001', '%Y%m%d')
 Nday = (Sday + timedelta(days=7)).strftime('%Y%m%d' + 'T')
